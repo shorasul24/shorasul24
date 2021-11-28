@@ -1,0 +1,14 @@
+.container {
+   width: 100%;
+   max-width: 1920px;
+   padding: 20px 70px 0 30px;  
+   display: flex;
+   justify-content: space-between;
+}
+
+@media only screen and (max-width:500px) {
+   .container{
+      display: flex;
+      justify-content: space-between;
+   }
+}

@@ -1,0 +1,17 @@
+.aside {
+   position: fixed;
+	top: 86px;
+	left: 0;
+	z-index: 2000;
+	flex-shrink: 0;
+	width: 235px;
+	height: calc(100vh - 86px);
+	padding: 30px 24px 40px 30px;
+	background-color: #fff;
+	overflow: auto;
+	transition: 0.5s ease;
+
+   &-close {
+		transform: translateX(-235px);
+	}
+}

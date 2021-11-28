@@ -1,0 +1,28 @@
+.icons__avatar {
+   width: 100%;
+   max-width: 260px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.icon__video,
+.grip__icon,
+.bell__icon{
+   border: none;
+   background: none;
+   color: rgb(148, 148, 148);
+   font-size: 20px;
+   transition: 0.5s ease;
+
+   & i:hover{
+      transition: 0.5s ease;
+      color: red;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+	 .block__icon{
+    display: none;
+  }
+}

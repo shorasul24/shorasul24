@@ -1,0 +1,16 @@
+.setting {
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+   border:none;
+   background:none;
+   color: #C2C2C2;
+   transition: 0.3s ease;
+
+   &:hover {     
+      transition: 0.3s ease;
+      color:#FF0000;
+   }
+}

@@ -1,0 +1,48 @@
+.video__play--g {
+	width:100%;
+	max-width: 1900px;
+}
+
+.video__content {
+	width: calc(100% - 235px);
+	height: calc(100vh - 86px);
+   padding: 30px 20px;
+	overflow: auto;
+	transform: translateX(235px);
+	transition: all 0.5s ease;
+	
+
+	&--auto {
+		width: 100%;
+		transform: translateX(0);
+	}
+
+	&-close {
+		transform: translateX(-235px);
+	}
+
+	&::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: #fff;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: #888;
+		border-radius: 10px;
+	}
+}
+
+@media only screen and (max-width: 1160px) {
+	.video__content {
+		width: 100%;
+		transform: translateX(0);
+
+		&--auto {
+			width: 100%;
+			transform: translateX(0);
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.food-drink__brend {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 20px;
+	row-gap: 20px;
+	margin-bottom: 30px;
+}
+
+.food-drink__image {
+   margin-right: 20px;
+}
+
+.food-drink__heading {
+   margin-right: 19px;
+   font-weight: bold;
+   font-size: 26px;
+   line-height: 33px;
+   color: #19202C;
+}
+
+.food__btn {
+   margin-left: auto;
+   margin-right: 200px;
+   padding: 10px 20px;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   background: #FF0000;
+   border: none;
+   border-radius: 20px;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
+.food-drink__text {
+   font-size: 16px;
+   line-height: 20px;
+   color: #C2C2C2;
+}

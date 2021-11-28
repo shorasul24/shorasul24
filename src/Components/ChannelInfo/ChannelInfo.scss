@@ -1,0 +1,75 @@
+.channel__info__container {
+   width: 100%;
+   max-width:1615px;
+}
+
+.channel__inner {
+	max-width: 1615px;
+	padding-top: 30px;
+   padding-left:25px;
+}
+
+.channel__inner--img {
+	height: 280px;
+	margin-bottom: 30px;
+	background-image: url('../../Assets/Images/chanel_bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 280px;
+	border-radius: 14px;
+}
+
+.channel__has {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.channel__img {
+   margin-right: 14px;
+}
+
+.channel__has-info {
+	margin-right: auto;
+}
+
+.channel__has-name {
+	display: block;
+	margin-bottom: 1px;
+	font-weight: bold;
+   font-size: 26px;
+   line-height: 33px;
+	color: #19202c;
+}
+
+.channel__has-subscribers {
+	font-size: 13px;
+   line-height: 16px;
+	color: #c2c2c2;
+}
+
+.channel__bell-icon {
+   margin-right: 20px;
+   border: none;
+   background: none;
+   color: rgb(148, 148, 148);
+   font-size: 22px;
+   transition: 0.5s ease;
+
+   & i:hover{
+      transition: 0.5s ease;
+      color: red;
+   }
+}
+
+.channel__btn{
+   padding: 10px 20px;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   background: #FF0000;
+   border: none;
+   border-radius: 20px;
+   color: #FFFFFF;
+   cursor: pointer;
+}

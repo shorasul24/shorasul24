@@ -1,0 +1,42 @@
+.channel__video__pley{
+   width: 100%;
+   max-width: 1120px;
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+}
+
+.abdullajon {
+   margin-right: 32px;
+   border-radius: 14px;
+}
+
+.abdullajon__box {
+   width:100%;
+   max-width: 548px;
+}
+
+.abdullajon__heading {
+   margin-top: 5px;
+   margin-bottom:10px;
+   font-weight: bold;
+   font-size: 26px;
+   line-height: 34px;
+   color: #19202C;
+}
+
+.abdullajon__text {
+   margin-top: 0;
+   margin-bottom: 30px;
+   font-size: 16px;
+   line-height: 22px;
+   color: #000000;
+   mix-blend-mode: normal;
+   opacity: 0.6;
+}
+
+.abdullajon__info {
+   font-size: 16px;
+   line-height: 22px;
+   color: #C2C2C2;
+}

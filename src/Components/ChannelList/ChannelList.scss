@@ -1,0 +1,31 @@
+.channel-navigation {
+	width: 100%;
+	max-width: 1615px;
+	margin-bottom: 61px;
+   padding-top: 20px;   
+   padding-left: 25px;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 204px;
+}
+
+.channel-navigation__list {
+	display: flex;
+	column-gap: 23px;
+	margin-bottom: 54px;
+}
+
+.channel-navigation__link {
+	padding: 3px;
+	
+	text-decoration: none;
+	color: #000;
+	border-bottom: 2px solid transparent;
+	transition: all 0.3s ease;
+
+	&.active,
+	&:hover {
+		color: #ff0000;
+		border-color: #ff0000;
+	}
+}

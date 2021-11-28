@@ -1,0 +1,38 @@
+// Channel Recommended Component Styles
+.channel-recommended {
+   padding-top:20px;
+   padding-right: 20px; 
+}
+
+.channel-recommended__heading {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-size: 16px;
+   line-height: 20px;   
+	color: #c2c2c2;
+}
+
+.channel-recommended__users {
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+
+.channel-recommended__user {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.channel-recommended__user-name {
+	font-weight: bold;
+   font-size: 18px;
+   line-height: 23px;
+   color: #19202c;
+}
+
+@media only screen and (max-width: 1800px) {
+	.channel-recommended {
+		display: none;
+	}
+} ;

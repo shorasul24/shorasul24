@@ -1,0 +1,30 @@
+.icon__search {
+   position: relative;
+   width: 100%;
+   max-width: 830px;
+   height: 44px;
+ }
+ 
+ .header__search {
+   width: 100%;
+   max-width: 830px;
+   height: 44px;
+   padding: 12px 23px;
+   background: #EBEBEB;
+   opacity: 0.3;
+   border-radius: 22px;
+   font-size: 18px;
+ }
+ 
+ .search__icon {
+   position: absolute;
+   top: 2px;
+   right: 23px;
+   font-size: 25px;
+ }
+
+ @media only screen and (max-width: 800px) {
+	.header__search--box {
+    display: none;
+  }
+}
